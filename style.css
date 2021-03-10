@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Recursive&display=swap');
+body {
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+.custom-shape-divider-top-1615322762 {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-top-1615322762 svg {
+  position: relative;
+  display: block;
+  width: calc(120% + 1.3px);
+  height: 80px;
+  transform: rotateY(180deg);
+}
+
+.custom-shape-divider-top-1615322762 .shape-fill {
+  fill: #2C7C81;
+}
+nav {
+    height: 80px;
+  }
+
+  .barre {
+    background-color: #2C7C81;
+   
+
+  }
+  
+ 
+  .navbar .navbar-nav .nav-link {
+    color: white !important;
+    font-family: Roboto Condensed;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-left: 15px;
+  }
+  .navbar .navbar-nav .nav-link:hover{
+color: #0075c9;
+  }
+  .navbar .navbar-nav .nav-item .nav-link:hover {
+    color: blue;
+    border: dashed 0.5px white;
+  }
+  .navbar .navbar-brand {
+    color: white;
+    margin-left: 50px;
+  }
+  .login{
+      background-color: #404aa0 !important;
+      color: white;
+      font-family: Roboto Condensed;
+      font-size: 14px;
+      font-weight: 700;
+      text-transform: uppercase;      
+      border-radius: 25px;
+      width: 100px;
+      margin-right: 50px;
+      padding: 5px;
+  }
+  .d-block{
+    height: 500px;
+  }
+  .carousel-caption {
+    position: absolute;
+    top: 150px;
+    height: 200px;
+    background-color: rgba(182, 177, 177, 0.8);
+    color: black;
+  }
+  li{
+    list-style: none;
+    margin-left: -30px;
+  }
+  a{
+    list-style: none;
+  }
+  .icone1 {
+    background: #2C7C81;
+    color: white;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+  }
+  .icone1:hover {
+    transform: scale(1.2);
+    background: #2C7C81;
+    color: white;
+  }
+  .icone{
+   font-size: 50px;
+   padding-top: 50px;
+   padding-bottom: 20px;
+   color: #0075c9;
+  }
+  .icones li {
+    display: inline-block;
+    color: white !important;
+    font-size: 35px;
+   
+  }
+  .icones p {
+   font-size: 15px;
+  
+  }
+  .description{
+    background-color: #2C7C81;
+    width: 100%;
+    height: 500px;
+  }
+  .description h2 {
+    font-weight: bold;
+    color: white;
+    padding-top: 200px;
+  }
+  
+  h2 ,h3 {
+    text-transform: uppercase;
+    color: #454545;
+    font-weight: 600;
+    letter-spacing: normal;
+    font-family:  Arial, Helvetica, sans-serif
+  }
+  .titre-color{
+    color: #0075c9;
+
+  }
+  .trais{
+    display: flex;
+    justify-content: center;
+    height: 2px;
+    width: 50px;
+    background-color:  #0075c9;
+  }
+  .bgtitre{
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style:normal;
+    color: #0075c9;
+    }
+    .grid-partenaire{
+      display: grid;
+      grid-template-columns: 150px 150px 150px 150px 150px 150px;
+      justify-content: center;
+      grid-gap: 30px;
+      text-align: center;
+  
+    }
+    .grid-réalisation{
+
+      display: grid;
+      grid-template-columns: 250px 250px 250px 250px ;
+      justify-content: center;
+      grid-gap: 30px;
+      text-align: center;
+    }
+ 
+  footer {
+    background-color: #293744;
+    width: 100%;
+    color: #fff;
+  }
+  a {
+    color: #fff !important;
+    text-decoration: none !important;
+  }
+  footer li >a:hover{
+    color: blue !important;
+    transform: translateX(10px);
+    transition: 0.5s;
+  }
+  .btn{
+    border-radius: 25px !important;
+    
+  }
+  .form-control{
+    border:solid 1px #2C7C81 !important;
+    border-radius: 25px !important;
+    
+  }
+  .new{
+    border: solid 1px transparent !important;
+    border-bottom-left-radius: 25px !important;
+    border-top-left-radius: 25px !important;
+    width: 400px;
+    height: 40px;
+  }
+  .btnnew{
+    border-bottom-right-radius: 25px !important;
+    border-top-right-radius: 25px !important;
+    color: white;
+    background-color: #2C7C81 !important;
+    width: 200px;
+    height: 40px;
+  }
+  .input-group{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+  }
+
+  .newsletter{
+
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-image:linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.4)),url(img/business-work-concept.jpg) ;
+    background-size: cover;
+    background-attachment: fixed;
+    
+    
+  }
