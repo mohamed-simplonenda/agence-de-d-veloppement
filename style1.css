@@ -1,0 +1,79 @@
+body {
+    overflow-x: hidden;
+    overflow-y: scroll;
+  }
+.contact-form .contact-fields {
+    position: relative;
+    margin: 32px 0;
+  }
+  .contact-form .input-text {
+    display: block;
+    width: 100%;
+    height: 50px;
+    border-width: 0 0 2px 0;
+    border-color: rgb(32, 52, 57);
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 400;
+  }
+  .contact-form .input-text:focus {
+    outline: none;
+  }
+  .contact-form .label {
+    position: absolute;
+    left: 20px;
+    bottom: 5px;
+    font-size: 18px;
+  
+    line-height: 26px;
+    color: rgb(32, 52, 57);
+    cursor: text;
+    transition: transform 0.2s ease-in-out;
+  }
+  .contact-form .label:hover {
+    position: absolute;
+    top: 5px;
+    left: 20px;
+    bottom: 11px;
+    font-size: 18px;
+  
+    line-height: 26px;
+    color: rgb(32, 52, 57);
+    cursor: text;
+    transition: transform 0.2s ease-in-out;
+  }
+  .contact-form .submit-btn {
+    display: inline-block;
+    background-image: linear-gradient(125deg, rgb(32, 52, 57), rgb(63, 103, 119));
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 16px;
+    padding: 8px 16px;
+    border: none;
+    width: 200px;
+    cursor: pointer;
+    float: right;
+  }
+  
+  /**form contact**/
+  .label {
+    color: rgb(85, 82, 82);
+  }
+  .form-group > input,
+  .form-control {
+    border: none;
+    border-bottom: 1px solid rgb(48, 129, 134);
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    outline: none;
+  }
+  .connex {
+    border-radius: 25px !important;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    font-size: 1.2em;
+    background-color: #f1b708;
+  }

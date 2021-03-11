@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Recursive&display=swap');
+*{
+  font-family: 'Recursive', sans-serif;
+}
 body {
   overflow-x: hidden;
   overflow-y: scroll;
@@ -42,12 +45,12 @@ nav {
     text-transform: uppercase;
     padding-left: 15px;
   }
-  .navbar .navbar-nav .nav-link:hover{
-color: #0075c9;
+   .active{
+border: none;
+border-bottom: solid 1px white;
   }
-  .navbar .navbar-nav .nav-item .nav-link:hover {
-    color: blue;
-    border: dashed 0.5px white;
+  .navbar .navbar-nav  .nav-link:hover {
+    color: #0075c9 !important;
   }
   .navbar .navbar-brand {
     color: white;
@@ -212,9 +215,14 @@ color: #0075c9;
 
     margin-top: 50px;
     margin-bottom: 50px;
-    background-image:linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.4)),url(img/business-work-concept.jpg) ;
+    background-image:linear-gradient(rgba(0,0,0,0.3), rgba(190, 183, 183, 0.4)),url(img/business-work-concept.jpg) ;
     background-size: cover;
     background-attachment: fixed;
     
     
+  }
+  @media screen and (max-width: 600px) {
+    .map {
+      width: 50%;
+    }
   }
